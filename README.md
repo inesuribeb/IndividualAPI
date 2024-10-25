@@ -17,10 +17,11 @@ Devuele un objeto con informacion sobre el color (nombre, imagen de color, conve
 
 - Generación de Esquemas de Color (`/scheme` Endpoint):
 Incluye un objeto con los colores del esquema, cada uno con su información respectiva.
-    > Esquema MONOCROMO: monochrome / monochrome-dark / monochrome-light. Variaciones del mismo color.
-    > Esquema ANÁLOGO: analogic / analogic-complement. Colores adyacentes en la rueda.
-    > Esquema COMPLEMENTARIO: complement. Colores opuestos en la rueda de colore.
-    > Esquema TRIAD: triad. 3 colores equidistantes en la rueda.
-    > Esquema CUADRADO: triad. Cuatro colores en forma de cuadrado en la rueda.
+    - Esquema MONOCROMO: monochrome / monochrome-dark / monochrome-light. Variaciones del mismo color.
+    - Esquema ANÁLOGO: analogic / analogic-complement. Colores adyacentes en la rueda.
+    - Esquema COMPLEMENTARIO: complement. Colores opuestos en la rueda de colore.
+    - Esquema TRIAD: triad. 3 colores equidistantes en la rueda.
+    - Esquema CUADRADO: triad. Cuatro colores en forma de cuadrado en la rueda.
+
 
 2. Fuentes
