@@ -1,0 +1,81 @@
+#intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 46%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: black;  */
+    background-image: url(../images/pruebafondo.png);
+    background-size: cover;          
+    background-size: contain; 
+    background-size: 110% 192%;
+    background-position: center; 
+    z-index: 100;
+    text-align: left;
+    padding-left: 50px;
+}
+
+@font-face {
+    font-family: 'Codigra';
+    src: url(../Fonts/codigra/Codigra.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Recognition';
+    src: url(../Fonts/recognition_2/recognition\ demo.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Klore';
+    src: url(../Fonts/KLORE_DEMO.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'Engage';
+    src: url(../Fonts/engage/Engage\ Regular.ttf) format('truetype');
+}
+
+.titleKhroma {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #DD8377;
+    font-family: 'Recognition';
+}
+
+.subtitle {
+    margin-top: 155px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.explanation {
+    max-width: 400px;
+    line-height: 1.2;
+    margin-bottom: 150px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+#intro button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: rgba(26, 26, 26, 0.831);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#intro button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: rgba(255, 255, 255, 0.333);
+}

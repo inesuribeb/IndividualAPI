@@ -1,0 +1,87 @@
+#esquemaColorScheme {
+    display: grid;
+    gap: 0px;
+    width: 100%;
+    padding-top: 10px;
+    height: 75%;
+}
+
+/* Estilos para diferentes números de colores */
+.colors-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.colors-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.colors-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.colors-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.colors-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.colors-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.colors-7 {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.colors-8 {
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.colors-9 {
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.colors-10 {
+    grid-template-columns: repeat(10, 1fr);
+}
+
+/* Estilos para los items de color */
+.color-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 150px;
+    border-radius: 0px;
+    transition: transform 0.3s ease;
+}
+
+.color-item:hover {
+    transform: translateY(-5px);
+}
+
+.color-item a p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: 5px 0; 
+}
+
+.color-item a {
+    margin-bottom: 10px;
+}
+
+.color-item button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.color-item button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}

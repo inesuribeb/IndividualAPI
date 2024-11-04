@@ -1,0 +1,109 @@
+header #favorites .tarjeta {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: white;
+    margin: 0px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 60px;
+    width: 100%;
+    overflow: hidden; /**/
+}
+
+#favorites {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 0; /**/
+    
+}
+
+
+header #favorites .tarjeta:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+header .tarjetas-container > div {
+    flex: 1;
+}
+
+#favorites .contenedor-circulo div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #f0f0f0;
+}
+
+#favorites h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+#favorites .almacen {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px; 
+    padding: 0px;
+    /* width: 100%; */
+    overflow-y: auto; 
+    max-height: 90px;
+    scrollbar-width: thin; 
+    height: 100%;/**/
+}
+
+
+
+
+#favorites .elemento-favorito {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 4px;
+    flex: 0 0 auto;  
+    white-space: nowrap; /**/
+}
+
+
+#favorites .contenedor-circulo {
+    flex-shrink: 0;
+}
+
+#favorites .contenedor-info {
+    flex-grow: 1; 
+    overflow: hidden;
+}
+
+#favorites .contenedor-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+#favorites .contenedor-boton button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#favorites .contenedor-boton button:hover {
+    background-color: #e0e0e0;
+}

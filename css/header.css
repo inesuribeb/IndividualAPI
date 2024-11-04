@@ -1,0 +1,134 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 0; 
+}
+
+#tituloPagina {         
+    margin-bottom: 10px;
+    background-color: transparent;   
+    height: 40px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+
+#tituloPagina h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+  #tituloPagina h1 a {
+    text-decoration: none;       
+    font-size: 1rem;           
+    font-weight: bold;           
+    color: black;               
+    transition: color 0.3s ease; 
+   
+  }
+  
+  #tituloPagina h1 a:hover {
+    text-decoration: underline;              
+  }
+
+  #esquemasColor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    min-height: 40px;
+    min-width: 100%;
+}
+
+#esquemasColor ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+#esquemasColor li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: visible; 
+    min-height: 40px; 
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+    justify-content: center;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+#esquemasColor li.scheme-active {
+    background-color: rgba(197, 197, 197, 0.723)!important; /* O el color que prefieras */
+    transform: none !important; /* Para evitar conflictos con el hover */
+}
+
+#esquemasColor li.scheme-active a {
+    color: white;
+}
+
+#esquemasColor li:not(.scheme-active):hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#esquemasColor a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8px;
+    z-index: 2; 
+}
+
+#esquemasColor a:hover {
+    color: rgba(154, 154, 154, 0.753);
+}
+
+
+#esquemasColor p {
+    color: beige;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 8px;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+    font-size: 0.9rem;
+}
+
+
+#esquemasColor li:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+

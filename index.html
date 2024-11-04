@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/tarjetaTemporal.css">
+    <link rel="stylesheet" href="css/fondo.css">
+    <link rel="stylesheet" href="css/favorites.css">
+    <link rel="stylesheet" href="css/muestraColores.css">
+    <link rel="stylesheet" href="css/dropZone.css">
+    <link rel="stylesheet" href="css/intro.css">
 </head>
 <body>
-    
+<header>
+    <div id="tituloPagina">
+        <h1><a href="http://127.0.0.1:5500/index.html">K<sup>©</sup>23 Khroma</a></h1>
+    </div>
+    <div class="tarjetas-container"> 
+    <div id="tarjetaTemporal">
+    </div>
+    <div id="favorites">
+    </div>
+    </div>
+    <div id="navegador">
+        <nav id = "esquemasColor"></nav>
+    </div>
+<script type="module" src="js/tarjetaTemporal.js"></script>
+</header>
+
+<section id="main">
+
+<div id="primeraPagina">
+    <section id="intro">
+    </section>
+
+    <section id="presentacion">
+    </section>
+
+    <section id = "colorSelector">
+    </section>
+</div>
+<section id = "tarjetaColor">
+</section>
+<section id = "esquemaColorScheme">
+</section>
+
+</section>
+<script type="module" src="js/intro.js"></script>
+<script type="module" src="js/presentacion.js"></script>
+<script type="module" src="js/colorPicker.js"></script>
+<script type="module" src="js/tarjetaColor.js"></script>
 </body>
 </html>
