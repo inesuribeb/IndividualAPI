@@ -53,11 +53,11 @@ Mediante el endpoint `/scheme`, el sistema genera esquemas cromáticos basados e
 ## ⚙️ Instalación y Uso
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/usuario/proyecto-colores.git
+   git clone git@github.com:inesuribeb/Khroma.git
    
 2. Navega al directorio del proyecto:
    ```bash
-   cd proyecto-colores
+   cd Khroma
    
 3. Abre el archivo index.html en tu navegador para probar la aplicación.
 
@@ -132,11 +132,11 @@ Through the `/scheme` endpoint, the system generates color schemes based on the 
 ## ⚙️ Installation and Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/color-project.git
+   git clone git@github.com:inesuribeb/Khroma.git
 
 2. Navigate to the project directory:
    ```bash
-   color-project
+   cd Khroma
    
 3. Open the index.html file in your browser to try the application.
 
