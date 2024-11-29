@@ -14,8 +14,7 @@ Los usuarios pueden elegir un color a partir de dos opciones:
 
 ### 🔍 Identificación y Conversión de Color
 A través del endpoint `/id`, el sistema devuelve un objeto con la siguiente información sobre el color seleccionado:
-- **Nombre del color**: Si está disponible, se identifica por un nombre común.
-- **Imagen de color**: Una representación visual del color.
+- **Nombre del color**: Se identifica por un nombre común.
 - **Conversiones**: Transformaciones del color a otros formatos (HEX, RGB, HSL, etc.).
 - **Color de contraste recomendado**: Un color sugerido para texto u otros elementos superpuestos, garantizando accesibilidad y buena legibilidad.
 
@@ -94,7 +93,6 @@ Users can choose a color in two ways:
 ### 🔍 Color Identification and Conversion
 Through the `/id` endpoint, the system returns an object with the following information about the selected color:
 - **Color Name**: If available, it identifies the color by its common name.
-- **Color Image**: A visual representation of the color.
 - **Conversions**: Transformations of the color to other formats (HEX, RGB, HSL, etc.).
 - **Recommended Contrast Color**: A suggested color for text or other overlay elements, ensuring accessibility and good legibility.
 
