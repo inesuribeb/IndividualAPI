@@ -1,4 +1,6 @@
-# 🟢🟡🔵🔴 KHROMA: Proyecto de Generación y Análisis de Colores
+# 🟢🟡🔵🔴 KHROMA: Generación y Análisis de Colores
+
+## Español
 
 Este proyecto permite a los usuarios explorar y generar esquemas de colores personalizados a partir de dos métodos principales de selección. Además, proporciona herramientas para identificar y convertir colores, así como para generar paletas cromáticas versátiles y funcionales.
 
@@ -73,6 +75,85 @@ Haz un fork del proyecto.
 ## :woman_juggling: Autor
 Creado por Ines Uribe
 
+
+
+# 🟢🟡🔵🔴 KHROMA: Color Generation and Analysis
+
+## English
+
+This project allows users to explore and generate custom color schemes based on two main selection methods. It also provides tools to identify and convert colors, as well as generate versatile and functional color palettes.
+
+## ⚙️ Features
+
+### 🎨 Color Selection
+Users can choose a color in two ways:
+1. **Random Color**: The page offers an initial random color. Users can click on this color to generate another random one.
+2. **Manual Selection**: Users can select a custom color using a color picker.
+3. **From an Image**: Users can upload an image and use the color picker to extract colors from their own image.
+
+### 🔍 Color Identification and Conversion
+Through the `/id` endpoint, the system returns an object with the following information about the selected color:
+- **Color Name**: If available, it identifies the color by its common name.
+- **Color Image**: A visual representation of the color.
+- **Conversions**: Transformations of the color to other formats (HEX, RGB, HSL, etc.).
+- **Recommended Contrast Color**: A suggested color for text or other overlay elements, ensuring accessibility and good legibility.
+
+### 🌈 Color Scheme Generation
+Through the `/scheme` endpoint, the system generates color schemes based on the selected color. Each scheme includes a set of related colors, with their respective conversions and details.
+
+#### Available Color Schemes
+1. **Monochrome**:
+   - `monochrome`
+   - `monochrome-dark`
+   - `monochrome-light`  
+   Variations in brightness of the same color.
+
+2. **Analogous**:
+   - `analogic`
+   - `analogic-complement`  
+   Adjacent colors on the color wheel, with the option to include the complementary color.
+
+3. **Complementary**:
+   - `complement`  
+   Opposite colors on the color wheel, creating high contrast.
+
+4. **Triadic**:
+   - `triad`  
+   Three equally spaced colors on the color wheel.
+
+5. **Square**:
+   - `quad`  
+   Four colors arranged in a square pattern on the color wheel.
+
+## 🛠️ Technologies Used
+- **HTML, CSS, JavaScript**: For the development of the interactive frontend.
+- **Color API**: This project uses the color API provided by [The Color API](https://github.com/joshbeckman/thecolorapi).
+
+## ⚙️ Installation and Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/color-project.git
+
+2. Navigate to the project directory:
+   ```bash
+   color-project
+   
+3. Open the index.html file in your browser to try the application.
+
+## 🤝 Contributions
+Contributions are welcome. If you want to collaborate:
+
+Fork the project.
+
+1. Create a branch for your changes:
+
+   ```bash
+   git checkout -b feature/new-feature
+
+2. Submit a pull request describing your modifications.
+
+## :woman_juggling: Author
+Created by Ines Uribe
 
 
 
