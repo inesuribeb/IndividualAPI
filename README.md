@@ -45,7 +45,7 @@ Mediante el endpoint `/scheme`, el sistema genera esquemas cromáticos basados e
 
 ## Tecnologías Utilizadas
 - **HTML, CSS, JavaScript**: Para el desarrollo del frontend interactivo.
-- **API de Colores**: Para obtener datos sobre colores y generar esquemas.
+- **API de Colores**: Este proyecto utiliza la API de colores proporcionada por [The Color API](https://github.com/joshbeckman/thecolorapi).
 
 ## Instalación y Uso
 1. Clona este repositorio:
@@ -67,7 +67,7 @@ git checkout -b feature/nueva-funcionalidad
 Realiza un pull request describiendo tus modificaciones.
 
 
-## Autor
+## :woman_juggling: Autor
 Creado por Ines Uribe
 
 
