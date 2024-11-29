@@ -1,4 +1,4 @@
-# 🟢🟡🔵🔴 Proyecto de Generación y Análisis de Colores
+# 🟢🟡🔵🔴 KHROMA: Proyecto de Generación y Análisis de Colores
 
 Este proyecto permite a los usuarios explorar y generar esquemas de colores personalizados a partir de dos métodos principales de selección. Además, proporciona herramientas para identificar y convertir colores, así como para generar paletas cromáticas versátiles y funcionales.
 
@@ -8,6 +8,7 @@ Este proyecto permite a los usuarios explorar y generar esquemas de colores pers
 Los usuarios pueden elegir un color a partir de dos opciones:
 1. **Color Aleatorio**: La página ofrece un color inicial al azar. Los usuarios pueden pulsar este color para generar otro aleatorio.
 2. **Selección Manual**: Los usuarios pueden seleccionar un color personalizado a través de un selector.
+3. **A partir de una imagen**: Los usuarios pueden subir una imagen y utilizar el selector de color para extraer colores de su propia imagen.
 
 ### 🔍 Identificación y Conversión de Color
 A través del endpoint `/id`, el sistema devuelve un objeto con la siguiente información sobre el color seleccionado:
