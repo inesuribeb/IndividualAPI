@@ -67,7 +67,7 @@ git checkout -b feature/nueva-funcionalidad
 Realiza un pull request describiendo tus modificaciones.
 
 
-Autor
+## Autor
 Creado por Ines Uribe
 
 
