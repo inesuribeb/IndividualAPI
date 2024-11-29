@@ -52,20 +52,22 @@ Mediante el endpoint `/scheme`, el sistema genera esquemas cromáticos basados e
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/usuario/proyecto-colores.git
-Navega al directorio del proyecto:
-bash
-Copiar código
-cd proyecto-colores
-Abre el archivo index.html en tu navegador para probar la aplicación.
-Contribuciones
+   
+2. Navega al directorio del proyecto:
+   ```bash
+   cd proyecto-colores
+   
+3. Abre el archivo index.html en tu navegador para probar la aplicación.
+
+## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si deseas colaborar:
 
 Haz un fork del proyecto.
-Crea una rama para tus cambios:
-bash
-Copiar código
-git checkout -b feature/nueva-funcionalidad
-Realiza un pull request describiendo tus modificaciones.
+1. Crea una rama para tus cambios:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   
+2. Realiza un pull request describiendo tus modificaciones.
 
 
 ## :woman_juggling: Autor
