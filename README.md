@@ -75,7 +75,7 @@ Haz un fork del proyecto.
 ## :woman_juggling: Autor
 Creado por Ines Uribe
 
-
+---
 
 # 🟢🟡🔵🔴 KHROMA: Color Generation and Analysis
 
