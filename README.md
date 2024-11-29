@@ -46,7 +46,6 @@ Mediante el endpoint `/scheme`, el sistema genera esquemas cromáticos basados e
 ## Tecnologías Utilizadas
 - **HTML, CSS, JavaScript**: Para el desarrollo del frontend interactivo.
 - **API de Colores**: Para obtener datos sobre colores y generar esquemas.
-- **[Especificar librerías adicionales si aplica]**.
 
 ## Instalación y Uso
 1. Clona este repositorio:
@@ -66,16 +65,12 @@ bash
 Copiar código
 git checkout -b feature/nueva-funcionalidad
 Realiza un pull request describiendo tus modificaciones.
-Licencia
-Este proyecto está bajo la licencia MIT.
+
 
 Autor
-Creado por Tu Nombre/Usuario.
+Creado por Ines Uribe
 
-go
-Copiar código
 
-Guarda este contenido en un archivo llamado `README.md`, y verás el formato con las negritas y secciones bien estructuradas al visualizarlo en plataformas como GitHub. 😊
 
 
 
