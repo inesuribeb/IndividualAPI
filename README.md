@@ -1,22 +1,22 @@
-# Proyecto de Generación y Análisis de Colores
+# 🟢🟡🔵🔴 Proyecto de Generación y Análisis de Colores
 
 Este proyecto permite a los usuarios explorar y generar esquemas de colores personalizados a partir de dos métodos principales de selección. Además, proporciona herramientas para identificar y convertir colores, así como para generar paletas cromáticas versátiles y funcionales.
 
-## Características
+## ⚙️ Características
 
-### Selección de Color
+### 🎨 Selección de Color
 Los usuarios pueden elegir un color a partir de dos opciones:
 1. **Color Aleatorio**: La página ofrece un color inicial al azar. Los usuarios pueden pulsar este color para generar otro aleatorio.
 2. **Selección Manual**: Los usuarios pueden seleccionar un color personalizado a través de un selector.
 
-### Identificación y Conversión de Color
+### 🔍 Identificación y Conversión de Color
 A través del endpoint `/id`, el sistema devuelve un objeto con la siguiente información sobre el color seleccionado:
 - **Nombre del color**: Si está disponible, se identifica por un nombre común.
 - **Imagen de color**: Una representación visual del color.
 - **Conversiones**: Transformaciones del color a otros formatos (HEX, RGB, HSL, etc.).
 - **Color de contraste recomendado**: Un color sugerido para texto u otros elementos superpuestos, garantizando accesibilidad y buena legibilidad.
 
-### Generación de Esquemas de Color
+### 🌈 Generación de Esquemas de Color
 Mediante el endpoint `/scheme`, el sistema genera esquemas cromáticos basados en el color seleccionado. Cada esquema incluye un conjunto de colores relacionados, con sus respectivas conversiones y detalles.
 
 #### Tipos de Esquemas Disponibles
@@ -43,11 +43,11 @@ Mediante el endpoint `/scheme`, el sistema genera esquemas cromáticos basados e
    - `quad`  
    Cuatro colores dispuestos en forma de cuadrado en la rueda cromática.
 
-## Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 - **HTML, CSS, JavaScript**: Para el desarrollo del frontend interactivo.
 - **API de Colores**: Este proyecto utiliza la API de colores proporcionada por [The Color API](https://github.com/joshbeckman/thecolorapi).
 
-## Instalación y Uso
+## ⚙️ Instalación y Uso
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/usuario/proyecto-colores.git
