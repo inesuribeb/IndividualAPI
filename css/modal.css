@@ -1,5 +1,4 @@
 .modal {
-
     position: absolute;
     left: 0;
     top: -70px;
@@ -8,11 +7,10 @@
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     z-index: 10;
+    height: 120vh;
 }
 
 .modal-body {
-   
-
     position: relative;
     background-color: white;
     width: 40%;

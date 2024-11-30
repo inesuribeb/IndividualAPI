@@ -1,5 +1,3 @@
-//import { Madre } from './tarjetaColor.js'
-
 export class Modal{
     constructor(content,parentId){
         this.content = content; // clase Madre

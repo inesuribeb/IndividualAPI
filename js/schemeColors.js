@@ -1,6 +1,3 @@
-import { obtenerEsquemaColoresModo } from './llamadaColor.js';
-import { mostrarColor } from './tarjetaColor.js';
-import { obtenerColorInfo } from './llamadaColor.js';
 import { addFavorite } from './favorites.js';
 
 //clase SchemeColor

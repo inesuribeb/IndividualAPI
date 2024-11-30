@@ -8,8 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /* background-color: black;  */
-    background-image: url(../images/pruebafondo.png);
+    background-color: black; 
+    /* background-image: url(../images/pruebafondo.png); */
     background-size: cover;          
     background-size: contain; 
     background-size: 110% 192%;

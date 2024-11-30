@@ -1,17 +1,3 @@
-/* 
-#primeraPagina {
-    
-    padding: 16px;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    gap: 16px;
-    z-index: 10; 
-} */
 
 #primeraPagina {
     width: 100%;
@@ -39,6 +25,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .drop-canvas {
