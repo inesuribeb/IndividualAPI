@@ -4,6 +4,15 @@
 
 Este proyecto permite a los usuarios explorar y generar esquemas de colores personalizados a partir de dos métodos principales de selección. Además, proporciona herramientas para identificar y convertir colores, así como para generar paletas cromáticas versátiles y funcionales.
 
+### ⚠️ Atención: No optimizado para dispositivos móviles
+
+Este proyecto **no está diseñado para ser responsive** ni adaptarse correctamente a pantallas pequeñas, como las de dispositivos móviles o tabletas. 
+
+Para una experiencia óptima, se recomienda visualizar el sitio en un dispositivo de escritorio con una resolución mínima de **1024px de ancho**.
+
+#### 📌 Nota:
+La adaptación para dispositivos móviles está **planeada para futuras actualizaciones**. ¡Gracias por tu comprensión!
+
 ## ⚙️ Características
 
 ### 🎨 Selección de Color
@@ -81,6 +90,15 @@ Creado por Ines Uribe
 ## English
 
 This project allows users to explore and generate custom color schemes based on two main selection methods. It also provides tools to identify and convert colors, as well as generate versatile and functional color palettes.
+
+### ⚠️ Attention: Not optimized for mobile devices
+
+This project **is not designed to be responsive** or properly adapt to small screens, such as mobile devices or tablets.
+
+For the best experience, it is recommended to view the site on a desktop device with a minimum resolution of **1024px in width**.
+
+#### 📌 Note:
+Mobile device adaptation is **planned for future updates**. Thank you for your understanding!
 
 ## ⚙️ Features
 
